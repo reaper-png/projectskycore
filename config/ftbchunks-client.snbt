@@ -137,7 +137,11 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"chicken_roost:c_tuff": true
+			"chicken_roost:c_flint": true
+			"chicken_roost:c_stone": true
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5

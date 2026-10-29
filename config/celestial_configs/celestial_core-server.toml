@@ -1,0 +1,59 @@
+[materials]
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	fireEssenceChance = 0.08
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	oceanEssenceChance = 0.08
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	deathEssenceChance = 0.6
+	# Default: 100
+	# Range: 0 ~ 1000000
+	deathEssenceMinHealth = 100
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	wardenScleriteChance = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	shulkerScrapChance = 0.5
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	lightFragmentChance = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	midnightFragmentChance = 0.05
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	sakuraFragmentChance = 0.1
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	virtualGoldNuggetChance = 0.5
+	# Default: 12
+	# Range: 0 ~ 100
+	pureNetherStarEffectCount = 12
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	guardianSpikeChance = 0.2
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	brokenTotemChance = 0.5
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	cursedEssenceChance = 0.05
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	celestialFragmentChance = 0.5
+	# Default: 6000
+	# Range: > 0
+	celestialFragmentInterval = 6000
+
+[items]
+	#Time required to restore durability each time
+	# Default: 5
+	# Range: 1 ~ 100
+	sakuraToolRecoveryTime = 5
+	#Percentage bonus provided by each enchantment
+	# Default: 0.05
+	# Range: 0.01 ~ 1.0
+	virtualGoldToolPerAdd = 0.05
