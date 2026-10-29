@@ -1,0 +1,3 @@
+# Commands that run when a player receives the 'Default' kit, one per line. Lines starting with # are ignored.
+# They run as the server at the player's position. @s is the player, and %s is replaced with the player's name.
+# For example: tag @s add default

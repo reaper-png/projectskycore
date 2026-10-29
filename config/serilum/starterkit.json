@@ -1,0 +1,51 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Starter Kit -> Config",
+	"Enable Starter Kit": {
+		"//": "Whether Starter Kit is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"randomizeMultipleKitsToggle": {
+		"//": "When multiple starter kits are added via /starterkit add, there are two ways to distribute them. With this enabled, one is chosen at random. When disabled, players can choose one on first join.",
+		"value": true
+	},
+	"randomKitWeights": {
+		"//": "How likely each kit is to be picked when kits are given randomly, as comma-separated kit_name:weight pairs. Kits that are not listed have a weight of 1. For example 'warrior:5,wizard:1' makes the warrior kit 5 times as likely as the wizard kit.",
+		"value": ""
+	},
+	"giveStarterKitOnFirstJoin": {
+		"//": "Whether new players receive (or get to choose) a starter kit when they join for the first time. When disabled, kits are only handed out via '/sk give <player>', which opens the kit choice screen when players can choose. Useful for an NPC or command block that hands out kits.",
+		"value": true
+	},
+	"giveStarterKitOnRespawn": {
+		"//": "Whether players receive the last starter kit they got again when they respawn after dying. Does nothing when the keepInventory gamerule is enabled.",
+		"value": false
+	},
+	"addExistingItemsAfterKitSet": {
+		"//": "Whether items that existed in the inventory, such as books added by other mods, should be added back to the inventory after the kit was set. If disabled, they'll be removed. You can still manually set them via the kit.",
+		"value": true
+	},
+	"usePotionEffectsInStarterKit": {
+		"//": "If potion/mob effect functionality should be enabled. This means that when creating a kit via /sk (add/set), it also saves the active effects the player has. And when handing out the starter kits, it adds the effects to new players.",
+		"value": true
+	},
+	"formatKitNames": {
+		"//": "If kit names should be formatted. Each word will be capitalized.",
+		"value": true
+	},
+	"chooseKitText": {
+		"//": "The text used above the kit choice screen, or if the mod is not installed in the chat. %s will be replaced with the player's name. Can also be a translation key from a resource pack, just like kit names and kit descriptions.",
+		"value": "%s, you can choose a starter kit!"
+	},
+	"lockKitChoiceScreen": {
+		"//": "Whether the kit choice screen stays open until a kit is chosen. When enabled, the inventory key and Escape do not close it. This is read from each player's own config, so a modpack sets it in the config it ships.",
+		"value": false
+	},
+	"announcePlayerKitChoiceInDedicatedServer": {
+		"//": "Whether an announcement should be broadcasted to the server whenever a new player makes a kit choice. 'randomizeMultipleKitsToggle' must be disabled, and there must be at least 2 starter kits available.",
+		"value": true
+	},
+	"enableFTBIslandCreateCompatibility": {
+		"//": "Whether the starter kit should be re-set after the '/ftbteamislands create' command from FTB Team Islands. Does nothing when it's not installed.",
+		"value": true
+	}
+}
