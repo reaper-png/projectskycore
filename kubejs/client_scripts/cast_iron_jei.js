@@ -39,7 +39,7 @@ JEIAddedEvents.registerCategories(event => {
 
                 graphics.drawWordWrap(
                     Client.font,
-                    Text.of("5 marteladas manuais"),
+                    Text.of("5 Manual Hammer Strikes"),
                     5, 55, 130, 0xAAAAAA
                 )
             })

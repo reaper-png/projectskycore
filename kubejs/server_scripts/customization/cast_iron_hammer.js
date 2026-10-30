@@ -30,19 +30,19 @@ BlockEvents.rightClicked(event => {
 
             var castNow = Date.now()
 
-            // Cooldown de 100ms entre marteladas
+            // 100ms cooldown between hammer strikes
             if (castNow - castState.lastHit >= 100) {
                 castState.lastHit = castNow
                 castState.hits++
 
-                // Som de bigorna em cada martelada
+                // Play anvil sound on each valid strike
                 event.server.runCommandSilent(
                     'execute as ' + event.player.username +
                     ' at @s run playsound minecraft:block.anvil.use block @s ~ ~ ~ 1 1'
                 )
 
-                // Gasta 1 ponto de durabilidade
-                // a cada martelada valida
+                // Consume 1 durability point
+                // for each valid hammer strike
                 var castHammerItem = event.item
 
                 if (!event.player.creative &&
@@ -52,7 +52,7 @@ BlockEvents.rightClicked(event => {
                         castHammerItem.getDamageValue() + 1
 
                     if (castNewDamage >= castHammerItem.getMaxDamage()) {
-                        // O martelo quebrou
+                        // The hammer breaks
                         castHammerItem.count = 0
 
                         event.server.runCommandSilent(
@@ -64,7 +64,7 @@ BlockEvents.rightClicked(event => {
                     }
                 }
 
-                // Barra visual: 5 etapas
+                // Visual progress bar: 5 steps
                 var castBar = ''
 
                 for (var castI = 0; castI < 5; castI++) {
@@ -72,18 +72,18 @@ BlockEvents.rightClicked(event => {
                         '§a▰' : '§7▱'
                 }
 
-                // Mostra a barra acima da hotbar
+                // Display progress bar above the hotbar
                 event.server.runCommandSilent(
                     'title ' + event.player.username +
-                    ' actionbar {"text":"§6🔨 Forjando  §r' +
+                    ' actionbar {"text":"§6🔨 Forging  §r' +
                     castBar + ' §f' + castState.hits + '/5"}'
                 )
 
                 console.info(
-                    '[FORJA] Batida ' + castState.hits + '/5'
+                    '[FORGE] Strike ' + castState.hits + '/5'
                 )
 
-                // Transformacao na quinta batida
+                // Convert the ingot on the fifth strike
                 if (castState.hits >= 5) {
                     var castRemaining = castHeld.count - 1
 
@@ -101,21 +101,21 @@ BlockEvents.rightClicked(event => {
                     castTile.setChanged()
                     castTile.notifyUpdate()
 
-                    // Entrega exatamente 1 Iron Ingot
+                    // Give exactly 1 Iron Ingot to the player
                     event.player.give(
                         Item.of('minecraft:iron_ingot', 1)
                     )
 
-                    // Reinicia para o proximo lingote
+                    // Reset progress for the next ingot
                     castState.hits = 0
 
-                    console.info('[FORJA] Iron Ingot produzido')
+                    console.info('[FORGE] Iron Ingot produced')
                 }
             }
         }
     }
 
-    // IMPORTANTE: ultima instrucao.
-    // event.cancel() encerra a execucao no KubeJS.
+    // IMPORTANT: Keep this as the last statement.
+    // event.cancel() immediately exits the event in KubeJS.
     event.cancel()
 })
