@@ -1,0 +1,13 @@
+// Compost colors for mcwtrpdoors. You may add your own colors, change existing ones, or remove colors that aren't needed.
+print_bamboo, #fff4b4
+print_barred, #fbd6bf
+print_beach, #ffe3b8
+print_blossom, #fffbda
+print_classic, #ffe6b5
+print_cottage, #e8d2a8
+print_four_panel, #dec69e
+print_mystic, #e6ebcc
+print_paper, #ffffcd
+print_swamp, #feddb8
+print_tropical, #ffe8bb
+print_whispering, #ffffe1

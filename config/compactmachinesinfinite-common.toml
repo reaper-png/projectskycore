@@ -1,0 +1,35 @@
+#Avoid Entity Spawn In Compact Dimension
+avoid_entity_spawn = false
+#Fix a compact machines' bug which cause the use method doesn't been called correctly
+bug_fix = true
+
+#Machine Sizes
+[size]
+	#Tiny Machine Size
+	#Range: 1 ~ 1024
+	tiny = 3
+	#Small Machine Size
+	#Range: 1 ~ 1024
+	small = 5
+	#Normal Machine Size
+	#Range: 1 ~ 1024
+	normal = 7
+	#Large Machine Size
+	#Range: 1 ~ 1024
+	large = 9
+	#Giant Machine Size
+	#Range: 1 ~ 1024
+	giant = 11
+	#Maximum Machine Size
+	#Range: 1 ~ 1024
+	maximum = 13
+	#XLarge Machine Size
+	#Range: 1 ~ 1024
+	xlarge = 15
+	#Extreme Machine Size
+	#Range: 1 ~ 1024
+	extreme = 17
+	#Ultra Machine Size
+	#Range: 1 ~ 1024
+	ultra = 19
+

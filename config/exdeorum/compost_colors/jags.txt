@@ -1,0 +1,2 @@
+// Compost colors for jags. You may add your own colors, change existing ones, or remove colors that aren't needed.
+grass_seed, #d2ffa5

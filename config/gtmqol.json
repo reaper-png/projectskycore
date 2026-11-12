@@ -1,0 +1,44 @@
+{
+  "itemDecorator": {
+    "tankContent": {
+      "renderContentAtCorner": false,
+      "renderContentAtCornerMaxType": 1,
+      "renderContentAtCornerOnTopOfItem": true,
+      "renderContentDurabilityBar": true,
+      "renderContentDurabilityBarAtEmpty": false,
+      "renderContentDurabilityBarAtFull": true,
+      "renderContentDurabilityBarMultiTankStrategy": "COUNT_TOTAL",
+      "tankContainers": [
+        "gtceu:{steel,aluminium,stainless_steel,titanium,tungstensteel}_fluid_cell",
+        "gtceu:glass_vial",
+        "gtceu:{lv,mv,hv,ev}_super_tank",
+        "gtceu:{iv,luv,zpm,uv,uhv,uev,uiv,uxv,opv}_quantum_tank",
+        "gtceu:{wood,bronze,steel,aluminium,stainless_steel,gold,titanium,tungsten_steel}_drum",
+        "start_core:{enriched_naquadah,neutronium}_drum",
+        "start_core:{enriched_naquadah,neutronium}_fluid_cell"
+      ]
+    },
+    "recipeDataContent": {
+      "renderRecipeDataAtCorner": true,
+      "recipeDataContainers": [
+        "gtceu:data_{stick,orb,module}",
+        "start_core:data_dna_disk",
+        "start_core:component_data_core"
+      ]
+    },
+    "waferRecipeLens": {
+      "renderWaferRecipeLens": true,
+      "waferRecipeLensExtraLensItems": [
+        "gtceu:fluix_lens",
+        "gtceu:echo_shard_lens"
+      ],
+      "waferRecipeLensExtraWaferItems": [
+        "kubejs:ae2_soc_wafer",
+        "kubejs:qram_wafer",
+        "kubejs:uepic_wafer",
+        "kubejs:draco_advanced_soc_wafer",
+        "kubejs:uipic_wafer"
+      ]
+    }
+  }
+}

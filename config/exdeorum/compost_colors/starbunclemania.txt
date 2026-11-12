@@ -1,0 +1,4 @@
+// Compost colors for starbunclemania. You may add your own colors, change existing ones, or remove colors that aren't needed.
+direction_scroll, #fffff8
+fluid_scroll_allow, #fff5c3
+fluid_scroll_deny, #fff7c3

@@ -1,0 +1,10 @@
+// Compost colors for darkutils. You may add your own colors, change existing ones, or remove colors that aren't needed.
+charm_portal, #64364d
+charm_sleep, #ffca86
+charm_warding, #d2c876
+tome_enchanting, #46473d
+tome_illager, #3d4048
+tome_pigpen, #504146
+tome_runelic, #4d3c3a
+tome_sga, #473c48
+tome_shadows, #504b4a

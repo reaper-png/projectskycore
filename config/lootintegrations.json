@@ -1,0 +1,32 @@
+{
+  "showcontainerloottable": {
+    // Set to true to print containers loottable to chat on first open: 
+    // Default:false
+    "showcontainerloottable": false
+  },
+
+  "skipMapItems": {
+    // Skips map items during additional item generation, to avoid structure search lag (maps in the original chest still exist): 
+    // Default:true
+    "skipMapItems": true
+  },
+
+  "skipExistingItems": {
+    // Skips adding items already present in the loot, to avoid stacking additional items.
+    // Note that this increases the chance for modded loot aswell. 
+    // Default:false
+    "skipExistingItems": false
+  },
+
+  "moddedItemWeight": {
+    // Add additional weight to modded items (e.g. 10 = 10 times more likely), making them more likely to be chosen 
+    // Default:3, minimum:0
+    "moddedItemWeight": 3
+  },
+
+  "debugOutput": {
+    // Shows the added loot in the log if enabled: 
+    // Default:false
+    "debugOutput": false
+  }
+}

@@ -1,0 +1,5 @@
+// Compost colors for gtceuterminal. You may add your own colors, change existing ones, or remove colors that aren't needed.
+dismantler, #3a333d
+energy_analyzer, #464636
+multi_structure_manager, #482d2d
+schematic_interface, #393940

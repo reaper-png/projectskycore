@@ -1,0 +1,3 @@
+// Compost colors for greate. You may add your own colors, change existing ones, or remove colors that aren't needed.
+rubber_window_pane, #866f4b
+treated_wood_window_pane, #ab9679

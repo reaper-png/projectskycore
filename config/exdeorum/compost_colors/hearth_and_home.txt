@@ -1,0 +1,19 @@
+// Compost colors for hearth_and_home. You may add your own colors, change existing ones, or remove colors that aren't needed.
+barred_glass_pane, #afccd7
+black_stained_barred_glass_pane, #2d3036
+blue_stained_barred_glass_pane, #4a68dd
+brown_stained_barred_glass_pane, #826852
+cyan_stained_barred_glass_pane, #65a0c2
+gray_stained_barred_glass_pane, #65686e
+green_stained_barred_glass_pane, #82a052
+light_blue_stained_barred_glass_pane, #82bcff
+light_gray_stained_barred_glass_pane, #b9bcc2
+lime_stained_barred_glass_pane, #9df436
+magenta_stained_barred_glass_pane, #d468ff
+orange_stained_barred_glass_pane, #ffa052
+pink_stained_barred_glass_pane, #ffa0cf
+purple_stained_barred_glass_pane, #9d5add
+red_stained_barred_glass_pane, #b94d52
+shoji_panel, #ffffe6
+white_stained_barred_glass_pane, #ffffff
+yellow_stained_barred_glass_pane, #ffff52

@@ -1,0 +1,27 @@
+// Compost colors for gtmthings. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_terminal, #afd9e8
+advanced_wireless_fluid_transfer_cover, #91d0d7
+advanced_wireless_item_transfer_cover, #bbcfbb
+creative_energy_cover, #6b627c
+ev_4a_wireless_energy_receive_cover, #b8accc
+ev_wireless_energy_receive_cover, #c8afbe
+hv_4a_wireless_energy_receive_cover, #cfd9eb
+hv_wireless_energy_receive_cover, #dedddd
+iv_4a_wireless_energy_receive_cover, #7c96a8
+iv_wireless_energy_receive_cover, #8c9a9a
+luv_4a_wireless_energy_receive_cover, #a2acaf
+luv_wireless_energy_receive_cover, #b1b1a1
+lv_4a_wireless_energy_receive_cover, #7d878a
+lv_wireless_energy_receive_cover, #8c8c7c
+mv_4a_wireless_energy_receive_cover, #96beca
+mv_wireless_energy_receive_cover, #a4c2bc
+programmable_cover, #d2e3e6
+uv_4a_wireless_energy_receive_cover, #66917c
+uv_wireless_energy_receive_cover, #75966c
+virtual_item_provider, #ffff00
+virtual_item_provider_cell, #fffffc
+wireless_energy_terminal, #b1dce8
+wireless_fluid_transfer_cover, #7aa09d
+wireless_item_transfer_cover, #a29d82
+zpm_4a_wireless_energy_receive_cover, #616870
+zpm_wireless_energy_receive_cover, #706b62

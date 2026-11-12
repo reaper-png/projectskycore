@@ -1,0 +1,25 @@
+// Compost colors for felixmorecurios. You may add your own colors, change existing ones, or remove colors that aren't needed.
+adv_pattern_encoder_slot_crystal, #80fcdc
+ars_focus_slot_crystal, #fc84ff
+back_slot_crystal, #6ea7f8
+belt_slot_crystal, #b1794d
+body_slot_crystal, #dde3ed
+bracelet_slot_crystal, #f09b62
+bundle_slot_crystal, #fad49a
+charm_slot_crystal, #62e790
+crafting_on_a_stick_slot_crystal, #d0c564
+curio_slot_crystal, #b668f4
+deep_learner_slot_crystal, #b1f84d
+feet_slot_crystal, #4db1a7
+hands_slot_crystal, #ff9bdd
+head_slot_crystal, #ff8457
+heart_amulet_slot_crystal, #fa5f7c
+necklace_slot_crystal, #62f0f8
+psd_slot_crystal, #93c5ff
+ring_slot_crystal, #ffe74d
+rings_slot_crystal, #ab62d7
+sentient_armour_socket_slot_crystal, #b14158
+shoulders_slot_crystal, #d6a7c8
+spellbook_slot_crystal, #8462e7
+talisman_slot_crystal, #ffc350
+waist_slot_crystal, #7ddcf8

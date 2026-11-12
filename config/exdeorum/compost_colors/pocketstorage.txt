@@ -1,0 +1,5 @@
+// Compost colors for pocketstorage. You may add your own colors, change existing ones, or remove colors that aren't needed.
+psu_1, #666664
+psu_2, #666664
+psu_3, #666664
+psu_4, #666664

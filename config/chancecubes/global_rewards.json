@@ -1,0 +1,4 @@
+{
+  "Comment": "This file is for enabling and disabling rewards for all users. You can use /chancecubes enableReward and /chancecubes disableReward to enable/ disable in game, though they will not change the value in this config.",
+  "rewards": {}
+}

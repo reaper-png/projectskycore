@@ -1,0 +1,14 @@
+// Compost colors for chiselsandbits. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bit_bag, #825f46
+bit_bag_dyed, #c5b4a2
+chisel_diamond, #ffffff
+chisel_gold, #fffff7
+chisel_iron, #ffffff
+chisel_netherite, #fffff7
+chisel_stone, #ffffff
+magnifying_glass, #b4ab90
+measuring_tape, #ffffca
+monocle, #ffffe7
+pattern_multi_use, #ffffb6
+pattern_single_use, #eaffff
+wrench, #bbac90

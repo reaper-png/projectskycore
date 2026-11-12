@@ -1,0 +1,66 @@
+{
+  "itemMovement": {
+    // Smooths item movement on the client during server or network lag. 
+    // Default:true
+    "enableClient": true,
+
+    // Compensates item movement on the server during low TPS to preserve vanilla behaviour. 
+    // Default: true
+    "enableServer": true
+  },
+
+  "entityMovement": {
+    // Smooths living entity movement on the client during server or network lag. 
+    // Default: true
+    "enableClient": true,
+
+    // Compensates server-controlled living entity movement, jumping and falling during low TPS by integrating acceleration and drag into one movement pass.
+    // Excludes players and player-controlled mounts. AI goals and combat timers are unchanged. 
+    // Default: true
+    "enableServer": true
+  },
+
+  "minecartMovement": {
+    // Smooths minecart movement on the client during server or network lag. 
+    // Default: true
+    "enableClient": true,
+
+    // Compensates minecart movement on the server during low TPS to preserve vanilla physics behavior. 
+    // Default: true
+    "enableServer": true
+  },
+
+  "experienceOrbMovement": {
+    // Compensates experience orb movement on the server during low TPS to preserve vanilla collection behavior.
+    // Default: true
+    "enableServer": true
+  },
+
+  "fallingblockmovement": {
+    // Compensates falling block movement on the server during low TPS to preserve vanilla physics behavior.
+    // Default: true
+    "enableServer": true
+  },
+
+  "projectileMovement": {
+    // Compensates projectile movement on the server during low TPS to preserve vanilla travel distance and timing.
+    // Default: true
+    "enableServer": true
+  },
+
+  "playerMovement": {
+    // Compensates player movement calculations during low TPS to reduce rubber-banding issues on the client.
+    // Default:true
+    "enableServer": true
+  },
+
+  "skyMovement": {
+    // Smooths sky/day movement on the client during server or network lag. 
+    // Default: true
+    "enableClient": true,
+
+    // Compensates daytime progression on the server during low TPS to preserve vanilla day length. 
+    // Default: true
+    "enableServer": true
+  }
+}
