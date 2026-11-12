@@ -39,3 +39,18 @@ Restart happened
 2026-11-08 00:27:47 [ERROR] EuphoriaPatcher: 
 2026-11-08 00:27:47 [ERROR] EuphoriaPatcher: Step 2: Paste the downloaded zip file into your shaderpacks folder.
 2026-11-08 00:28:36 [ERROR] EuphoriaPatcher: The download link has been copied to your clipboard. Paste it in your browser.
+
+--------------------------------------
+Restart happened
+--------------------------------------
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.9.3
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: 
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: 
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: SOLUTION:
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: Step 1: Download ComplementaryShaders r5.9.3
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/manual-download/
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: 
+2026-11-11 22:23:05 [ERROR] EuphoriaPatcher: Step 2: Paste the downloaded zip file into your shaderpacks folder.
+2026-11-11 22:23:53 [ERROR] EuphoriaPatcher: The download link has been copied to your clipboard. Paste it in your browser.

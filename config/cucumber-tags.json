@@ -1,3 +1,16 @@
 {
-  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config"
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/tungsten": "chicken_roost:ingot_tungsten",
+  "forge:ingots/iridium": "chicken_roost:ingot_iridium",
+  "forge:ingots/chrome": "chicken_roost:ingot_chrome",
+  "forge:rubber": "null",
+  "forge:silicon": "ae2:silicon",
+  "forge:dusts/saltpeter": "gtceu:saltpeter_dust",
+  "forge:ingots/platinum": "chicken_roost:ingot_platinum",
+  "forge:dusts/niter": "thermal:niter_dust",
+  "forge:ingots/graphite": "bigreactors:graphite_ingot",
+  "forge:ingots/aluminum": "chicken_roost:ingot_aluminum",
+  "forge:ingots/titanium": "chicken_roost:ingot_titanum",
+  "forge:ingots/mithril": "null",
+  "forge:gems/peridot": "alltheores:peridot"
 }
